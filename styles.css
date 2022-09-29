@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-principal: #ed6436;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: nunito;
+}
+
+main h1 {
+  font-size: 1.5rem;
+  color: var(--color-principal);
+}
+
+main h1 + span {
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+main button {
+  background-color: var(--color-principal);
+  font-size: 1.5rem;
+  font-family: nunito;
+  padding: 20px;
+  border-radius: 0 20px 20px 20px;
+  border: none;
+  color: white;
+  margin: 20px 0 70px 0;
+}
+
+main img {
+  width: 80vw;
+}
